@@ -1,3 +1,5 @@
+"use client";
+
 // Export generateStaticParams for static site generation
 export async function generateStaticParams() {
   // For static export, we'll generate a few placeholder IDs
@@ -9,8 +11,6 @@ export async function generateStaticParams() {
     // Add more IDs as needed
   ];
 }
-
-("use client");
 
 import { useState, useEffect } from "react";
 import {

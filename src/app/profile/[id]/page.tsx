@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+// Note: generateStaticParams is imported in layout.tsx instead
 import { useParams } from "next/navigation";
 import {
   Box,

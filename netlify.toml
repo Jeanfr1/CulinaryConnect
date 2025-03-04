@@ -6,10 +6,6 @@
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
   NODE_VERSION = "18"
 
-# We're not using the Next.js plugin with static export
-# [[plugins]]
-#   package = "@netlify/plugin-nextjs"
-
 # These redirects ensure client-side routing works with static export
 [[redirects]]
   from = "/*"

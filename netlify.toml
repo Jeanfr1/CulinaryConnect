@@ -9,7 +9,7 @@
 # These redirects ensure client-side routing works with static export
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
 
 [functions]

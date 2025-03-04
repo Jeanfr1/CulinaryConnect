@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Ensure trailing slashes are handled correctly
-  trailingSlash: true,
+  // Don't add trailing slashes to URLs
+  trailingSlash: false,
   // Disable ESLint during build
   eslint: {
     ignoreDuringBuilds: true,
